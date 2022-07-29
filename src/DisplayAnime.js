@@ -4,31 +4,26 @@ import React, {useEffect} from "react";
 
 
 
-
-
-
-
-
-
-
-function DisplayImages({movies, setMovies}){
+function DisplayAnime({movies, setMovies}){
     
     useEffect(() => {
-        fetch("http://localhost:3000/movies")
+        fetch("http://localhost:3000/anime")
         .then((r) => r.json())
         .then((data) => setMovies(data));
     },[setMovies])
 
-    const moviePosters = movies.map((movieData) => {
+    const animePosters = movies.map((movieData) => {
         return <img key = {movieData.id} src = {movieData.image} alt = {movieData.name}></img>;
-              });
-      
-    return (<>{moviePosters}</>);
-        
-    
-    
+        });
 
+    return(
+        <>
+        {animePosters}
+        </>
+    )
+
+    
 }
 
 
-export default DisplayImages;
+export default DisplayAnime;

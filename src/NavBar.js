@@ -8,10 +8,10 @@ import { NavLink } from "react-router-dom";
 
 const linkStyles = {
   display: "inline-block",
-  width: "50px",
+  width: "100px",
   padding: "12px",
-  margin: "0 6px 6px",
-  background: "blue",
+  margin: "0 50px 50px",
+  background: "gray",
   textDecoration: "none",
   color: "white",
 };
@@ -32,7 +32,7 @@ function NavBar() {
           style={linkStyles}
           /* add prop for activeStyle */
           activeStyle={{
-            background: "darkblue",
+            background: "black",
           }}
         >
           Series
@@ -42,7 +42,7 @@ function NavBar() {
           exact
           style={linkStyles}
           activeStyle={{
-            background: "darkblue",
+            background: "black",
           }}
         >
           Japanese Anime.
@@ -52,7 +52,7 @@ function NavBar() {
           exact
           style={linkStyles}
           activeStyle={{
-            background: "darkblue",
+            background: "black",
           }}
         >
           Movies
@@ -62,20 +62,10 @@ function NavBar() {
           exact
           style={linkStyles}
           activeStyle={{
-            background: "darkblue",
+            background: "black",
           }}
         >
           Animation Movies
-        </NavLink>
-        <NavLink
-          to="/documentaries"
-          exact
-          style={linkStyles}
-          activeStyle={{
-            background: "darkblue",
-          }}
-        >
-          Documentaries
         </NavLink>
       </div>
     );

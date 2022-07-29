@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import LikeButton from "./LikeButton";
 
 
 
@@ -13,7 +14,7 @@ function DisplayAnime({movies, setMovies}){
     },[setMovies])
 
     const animePosters = movies.map((movieData) => {
-        return <img key = {movieData.id} src = {movieData.image} alt = {movieData.name}></img>;
+        return <><h1>{movieData.name}</h1><img key = {movieData.id} src = {movieData.image} alt = {movieData.name}></img><LikeButton/></>;
         });
 
     return(

@@ -18,7 +18,7 @@ const linkStyles = {
 
 
 
-
+<a onClick={() => {window.location.href="/something"}}>Something</a>
 
 
 
@@ -26,7 +26,8 @@ function NavBar() {
     return (
       <div>
         <NavLink
-          to="/series"
+          to="/"
+          onClick={() => {window.location.href="/"}}
           /* set exact so it knows to only set activeStyle when route is deeply equal to link */
           exact
           style={linkStyles}
@@ -39,6 +40,7 @@ function NavBar() {
         </NavLink>
         <NavLink
           to="/anime"
+          onClick={() => {window.location.href="/anime"}}
           exact
           style={linkStyles}
           activeStyle={{
@@ -49,6 +51,7 @@ function NavBar() {
         </NavLink>
         <NavLink
           to="/movies"
+          onClick={() => {window.location.href="/movies"}}
           exact
           style={linkStyles}
           activeStyle={{
@@ -59,6 +62,7 @@ function NavBar() {
         </NavLink>
         <NavLink
           to="/animation"
+          onClick={() => {window.location.href="/animation"}}
           exact
           style={linkStyles}
           activeStyle={{

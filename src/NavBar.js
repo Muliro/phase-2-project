@@ -35,7 +35,7 @@ function NavBar() {
             background: "black",
           }}
         >
-          Series
+          Series.
         </NavLink>
         <NavLink
           to="/anime"
@@ -45,7 +45,7 @@ function NavBar() {
             background: "black",
           }}
         >
-          Japanese Anime.
+           Anime.
         </NavLink>
         <NavLink
           to="/movies"
@@ -55,7 +55,7 @@ function NavBar() {
             background: "black",
           }}
         >
-          Movies
+          Movies.
         </NavLink>
         <NavLink
           to="/animation"
@@ -65,7 +65,7 @@ function NavBar() {
             background: "black",
           }}
         >
-          Animation Movies
+          Animation.
         </NavLink>
       </div>
     );

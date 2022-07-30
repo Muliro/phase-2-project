@@ -1,14 +1,23 @@
-# Movie Library.
+# Bucket Binge.
 
-this is a website where you can search for information about movies and get it.
+this is a website where you can search for information about top rated films and get it.
 
-## Available Scripts
+
+
+# Built With 
+## React
+## Html
+## Javascript
+## css
 
 In the project directory, you can run:
 
 ### `npm start`
+go to https://github.com/Muliro/phase-2-project   fork and clone the repository.
+then go to https://github.com/Muliro/json-server-template fork and clone this repository.
 
-Runs the app in the development mode.\
+type npm run dev when in the server template
+type npm start when within the app folder
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -46,12 +55,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
+This app has used client side routing for code splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
 ### Making a Progressive Web App
 
@@ -68,3 +73,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+#License
+Distributed under the MIT License. See LICENSE.txt for more information.
+
+Contact
+mulirokhaemba@gmail.com 
+
+Project Link: https://github.com/Muliro/phase-2-project
+server Link : https://github.com/Muliro/json-server-template

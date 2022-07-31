@@ -1,6 +1,6 @@
 # Binge Bucket.
 
-this is a website where you can search for information about top rated films and get it.
+A collection of bingeworthy awesomeness irregardless of genre.
 
 
 

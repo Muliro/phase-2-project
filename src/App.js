@@ -16,10 +16,10 @@ function App() {
     <div className="images">
       <NavBar />
       <Switch>
-      <Route exact path = "/movies"><DisplayImages movies = {movies} setMovies = {setMovies}/></Route>
-      <Route exact path = "/anime"><DisplayAnime movies = {movies} setMovies = {setMovies}/></Route>
-      <Route exact path = "/animation"><DisplayAnimation movies = {movies} setMovies = {setMovies}  /></Route>
-      <Route exact path = "/"><DisplayTv movies = {movies} setMovies = {setMovies} /></Route>
+      <Route exact path = "/movies"><DisplayImages movies = {movies} class = "movies" setMovies = {setMovies}/></Route>
+      <Route exact path = "/anime"><DisplayAnime movies = {movies} class = "anime" setMovies = {setMovies}/></Route>
+      <Route exact path = "/animation"><DisplayAnimation movies = {movies} class = "animation" setMovies = {setMovies}  /></Route>
+      <Route exact path = "/"><DisplayTv movies = {movies} class = "series" setMovies = {setMovies} /></Route>
       </Switch>
     </div>
   );

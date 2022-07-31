@@ -1,4 +1,4 @@
-# Bucket Binge.
+# Binge Bucket.
 
 this is a website where you can search for information about top rated films and get it.
 
@@ -73,6 +73,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### react-router-dom
+
+If you're using react-router-dom version 6 or higher, support for switch from the react router dom
+is no longer available, be sure to uninstall it and install version 5 or lower.
 
 
 #License

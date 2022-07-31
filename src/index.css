@@ -32,3 +32,7 @@ code {
   margin-left:20px;
   border-radius: 5px;
  }
+
+ .series{
+  background-image: url("http://localhost:3000/assets/images/GOT.jpg");
+ }

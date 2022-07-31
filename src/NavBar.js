@@ -18,7 +18,6 @@ const linkStyles = {
 
 
 
-<a onClick={() => {window.location.href="/something"}}>Something</a>
 
 
 
